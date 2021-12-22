@@ -1,0 +1,6 @@
+15:11:05.392 [main] DEBUG Main.ModuleA - It is a debug logger.
+15:11:05.407 [main] ERROR Main.ModuleA - It is a error logger.
+15:11:05.407 [main] FATAL Main.ModuleA - It is a fatal logger.
+15:11:05.407 [main] INFO  Main.ModuleA - It is a info logger.
+15:11:05.407 [main] TRACE Main.ModuleA - It is a trace logger.
+15:11:05.407 [main] WARN  Main.ModuleA - It is a warn logger.

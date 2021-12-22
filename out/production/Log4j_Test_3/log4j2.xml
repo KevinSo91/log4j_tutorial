@@ -2,7 +2,7 @@
 
 <Configuration status="warn" name="MyApp" packages="">
     <Appenders>
-        <File name="MyFile" FileName="logs/myapp.log">
+        <File name="MyFile" FileName="logs/myapp-${date:yyyy-MM-dd__HH_mm_ss_SSS}.log">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </File>
     </Appenders>
