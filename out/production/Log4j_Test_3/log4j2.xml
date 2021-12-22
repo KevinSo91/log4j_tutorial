@@ -5,10 +5,14 @@
         <File name="MyFile" FileName="logs/myapp-${date:yyyy-MM-dd__HH_mm_ss_SSS}.log">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </File>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%highlight{%d [%t] %-5level: %msg%n%throwable}"/>
+        </Console>
     </Appenders>
     <Loggers>
         <Root level="trace">
             <AppenderRef ref="MyFile"/>
+            <AppenderRef ref="Console"/>
         </Root>
     </Loggers>
 </Configuration>
