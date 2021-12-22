@@ -1,0 +1,12 @@
+14:46:43.368 [main] DEBUG Main.ModuleA - It is a debug logger.
+14:46:43.368 [main] ERROR Main.ModuleA - It is a error logger.
+14:46:43.368 [main] FATAL Main.ModuleA - It is a fatal logger.
+14:46:43.368 [main] INFO  Main.ModuleA - It is a info logger.
+14:46:43.368 [main] TRACE Main.ModuleA - It is a trace logger.
+14:46:43.368 [main] WARN  Main.ModuleA - It is a warn logger.
+14:55:03.419 [main] DEBUG Main.ModuleA - It is a debug logger.
+14:55:03.436 [main] ERROR Main.ModuleA - It is a error logger.
+14:55:03.436 [main] FATAL Main.ModuleA - It is a fatal logger.
+14:55:03.436 [main] INFO  Main.ModuleA - It is a info logger.
+14:55:03.436 [main] TRACE Main.ModuleA - It is a trace logger.
+14:55:03.436 [main] WARN  Main.ModuleA - It is a warn logger.
